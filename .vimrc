@@ -154,6 +154,9 @@ set hlsearch
 set rtp+=$GOROOT/misc/vim
 filetype plugin indent on
 
+" YouCompleteMe global compilation flags file
+let g:ycm_global_ycm_extra_conf = '~/bin/.ycm_extra_conf.py'
+
 " Theme
 syntax enable
 colorscheme railscasts
