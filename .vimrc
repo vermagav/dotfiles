@@ -53,8 +53,9 @@ else
   let s:search_command = 'find %s -type f'
 endif
 
-" Line numbers
+" Show relative line numbers
 set number
+set relativenumber
 
 " Turn on syntax highlighting
 syntax on
@@ -144,6 +145,10 @@ set wildignore+=*.png,*.jpg,*.gif
 set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
+
+" Incremental search with highlight
+set incsearch
+set hlsearch
 
 " Go Language Syntax Highlighting
 set rtp+=$GOROOT/misc/vim
