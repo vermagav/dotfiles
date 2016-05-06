@@ -18,9 +18,11 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'          " required
 
 " Custom Vundle Plugins
+Plugin 'fatih/vim-go'               " Golang support
+Plugin 'jpo/vim-railscasts-theme'   " Railscasts theme
 Plugin 'kien/ctrlp.vim'             " Fuzzy file finder
 Plugin 'Valloric/YouCompleteMe'     " Autocomplete without shortcuts
-Plugin 'jpo/vim-railscasts-theme'   " Railscasts theme for vim
+
 " <add more here>
 
 " All of your Plugins must be added before the following line
